@@ -42,19 +42,19 @@ mvn clean package -pl order-service
 ```
 ### 2. Run Services
 Start services in order:
-# Terminal 1 - Service Discovery
+### Terminal 1 - Service Discovery
 mvn spring-boot:run -pl service-discovery
 
-# Terminal 2 - Stock Service
+### Terminal 2 - Stock Service
 mvn spring-boot:run -pl stock-service
 
-# Terminal 3 - Payment Service
+### Terminal 3 - Payment Service
 mvn spring-boot:run -pl payment-service
 
-# Terminal 4 - Order Service
+### Terminal 4 - Order Service
 mvn spring-boot:run -pl order-service
 
-# Terminal 5 - API Gateway
+### Terminal 5 - API Gateway
 mvn spring-boot:run -pl api-gateway
 
 ### 3. Verify Services
